@@ -9,6 +9,8 @@
 // #[derive(Debug)]
 // struct DebugPrintable(i32);
 
+use std::fmt::{self, Display};
+
 // Derive the `fmt::Debug` implementation for `Structure`. `Structure`
 // is a structure which contains a single `i32`.
 #[derive(Debug)]
@@ -23,6 +25,38 @@ struct Deep(Structure);
 struct Person<'a> {
     name: &'a str,
     age: u8,
+}
+
+// ===============================================================
+//
+// Display
+//
+// A structure holding two numbers. `Debug` will be derived so the results can
+// be contrasted with `Display`.
+#[derive(Debug)]
+struct MinMax(i64, i64);
+
+// Implement `Display` for `MinMax`.
+impl Display for MinMax {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        // Use `self.number` to refer to each positional data point.
+        write!(f, "({}, {})", self.0, self.1)
+    }
+}
+
+// Define a structure where the fields are nameable for comparison.
+#[derive(Debug)]
+struct Point2D {
+    x: f64,
+    y: f64,
+}
+
+// Similarly, implement `Display` for `Point2D`.
+impl Display for Point2D {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        // Customize so only `x` and `y` are denoted.
+        write!(f, "x: {}, y: {}", self.x, self.y)
+    }
 }
 
 fn main() {
@@ -82,4 +116,29 @@ fn main() {
     let peter = Person { name, age };
     // pretty print
     println!("{:#?}", peter);
+
+    // ===============================================================
+    //
+    // Display
+    //
+    let minMax = MinMax(0, 14);
+
+    println!("Compare structures: ");
+    println!("Display: {}", minMax);
+    println!("Debug: {:?}", minMax);
+
+    let big_range = MinMax(-300, 300);
+    let small_range = MinMax(-3, 3);
+
+    println!(
+        "The big range is {big} and the small is {small}",
+        small = small_range,
+        big = big_range
+    );
+
+    let point = Point2D { x: 3.3, y: 7.2 };
+
+    println!("Compare points: ");
+    println!("Display: {}", point);
+    println!("Debug: {:?}", point);
 }
