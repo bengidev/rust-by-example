@@ -11,6 +11,7 @@
 
 mod format_display;
 mod formatting;
+mod literals_and_operators;
 mod primitives;
 mod prints;
 
@@ -34,4 +35,5 @@ fn main() {
     format_display::describe();
     formatting::describe();
     primitives::describe();
+    literals_and_operators::describe();
 }
