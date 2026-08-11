@@ -14,6 +14,7 @@ mod formatting;
 mod literals_and_operators;
 mod primitives;
 mod prints;
+mod tuples;
 
 use std::fmt::{self, Display};
 
@@ -36,4 +37,5 @@ fn main() {
     formatting::describe();
     primitives::describe();
     literals_and_operators::describe();
+    tuples::describe();
 }
