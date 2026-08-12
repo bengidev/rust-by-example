@@ -9,6 +9,7 @@
 // #[derive(Debug)]
 // struct DebugPrintable(i32);
 
+mod arrays_and_slices;
 mod format_display;
 mod formatting;
 mod literals_and_operators;
@@ -38,4 +39,5 @@ fn main() {
     primitives::describe();
     literals_and_operators::describe();
     tuples::describe();
+    arrays_and_slices::describe();
 }
