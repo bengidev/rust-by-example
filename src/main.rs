@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod arrays_and_slices;
+mod enums;
 mod format_display;
 mod formatting;
 mod literals_and_operators;
@@ -42,4 +43,5 @@ fn main() {
     tuples::describe();
     arrays_and_slices::describe();
     structs::describe();
+    enums::describe();
 }
