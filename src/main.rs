@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod arrays_and_slices;
+mod enum_c_like;
 mod enums;
 mod format_display;
 mod formatting;
@@ -46,4 +47,5 @@ fn main() {
     structs::describe();
     enums::describe();
     use_use::describe();
+    enum_c_like::describe();
 }
