@@ -14,6 +14,7 @@ mod enum_c_like;
 mod enums;
 mod format_display;
 mod formatting;
+mod linked_list_enum;
 mod literals_and_operators;
 mod primitives;
 mod prints;
@@ -48,4 +49,5 @@ fn main() {
     enums::describe();
     use_use::describe();
     enum_c_like::describe();
+    linked_list_enum::describe();
 }
