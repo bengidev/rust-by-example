@@ -18,6 +18,7 @@ mod primitives;
 mod prints;
 mod structs;
 mod tuples;
+mod use_use;
 
 use std::fmt::{self, Display};
 
@@ -44,4 +45,5 @@ fn main() {
     arrays_and_slices::describe();
     structs::describe();
     enums::describe();
+    use_use::describe();
 }
