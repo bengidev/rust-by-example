@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod arrays_and_slices;
+mod const_global_static;
 mod enum_c_like;
 mod enums;
 mod format_display;
@@ -50,4 +51,5 @@ fn main() {
     use_use::describe();
     enum_c_like::describe();
     linked_list_enum::describe();
+    const_global_static::describe();
 }
