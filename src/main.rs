@@ -22,6 +22,7 @@ mod prints;
 mod structs;
 mod tuples;
 mod use_use;
+mod variable_bindings;
 
 use std::fmt::{self, Display};
 
@@ -52,4 +53,5 @@ fn main() {
     enum_c_like::describe();
     linked_list_enum::describe();
     const_global_static::describe();
+    variable_bindings::describe();
 }
