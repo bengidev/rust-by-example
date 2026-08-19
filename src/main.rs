@@ -20,6 +20,7 @@ mod literals_and_operators;
 mod mutability;
 mod primitives;
 mod prints;
+mod scope_and_shadowing;
 mod structs;
 mod tuples;
 mod use_use;
@@ -56,4 +57,5 @@ fn main() {
     const_global_static::describe();
     variable_bindings::describe();
     mutability::describe();
+    scope_and_shadowing::scope_and_shadowing();
 }
