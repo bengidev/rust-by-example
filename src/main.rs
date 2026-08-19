@@ -17,6 +17,7 @@ mod format_display;
 mod formatting;
 mod linked_list_enum;
 mod literals_and_operators;
+mod mutability;
 mod primitives;
 mod prints;
 mod structs;
@@ -54,4 +55,5 @@ fn main() {
     linked_list_enum::describe();
     const_global_static::describe();
     variable_bindings::describe();
+    mutability::describe();
 }
