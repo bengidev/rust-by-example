@@ -11,6 +11,7 @@
 
 mod arrays_and_slices;
 mod const_global_static;
+mod declare_first;
 mod enum_c_like;
 mod enums;
 mod format_display;
@@ -58,4 +59,5 @@ fn main() {
     variable_bindings::describe();
     mutability::describe();
     scope_and_shadowing::scope_and_shadowing();
+    declare_first::describe();
 }
