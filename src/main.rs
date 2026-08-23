@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod arrays_and_slices;
+mod casting;
 mod const_global_static;
 mod declare_first;
 mod enum_c_like;
@@ -62,4 +63,5 @@ fn main() {
     scope_and_shadowing::scope_and_shadowing();
     declare_first::describe();
     freezing::describe();
+    casting::describe();
 }
