@@ -16,6 +16,7 @@ mod enum_c_like;
 mod enums;
 mod format_display;
 mod formatting;
+mod freezing;
 mod linked_list_enum;
 mod literals_and_operators;
 mod mutability;
@@ -60,4 +61,5 @@ fn main() {
     mutability::describe();
     scope_and_shadowing::scope_and_shadowing();
     declare_first::describe();
+    freezing::describe();
 }
