@@ -19,6 +19,7 @@ mod format_display;
 mod formatting;
 mod freezing;
 mod linked_list_enum;
+mod literals;
 mod literals_and_operators;
 mod mutability;
 mod primitives;
@@ -64,4 +65,5 @@ fn main() {
     declare_first::describe();
     freezing::describe();
     casting::describe();
+    literals::describe();
 }
