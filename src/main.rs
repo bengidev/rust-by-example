@@ -9,6 +9,7 @@
 // #[derive(Debug)]
 // struct DebugPrintable(i32);
 
+mod aliasing;
 mod arrays_and_slices;
 mod casting;
 mod const_global_static;
@@ -68,4 +69,5 @@ fn main() {
     casting::describe();
     literals::describe();
     inference::describe();
+    aliasing::describe();
 }
