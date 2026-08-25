@@ -18,6 +18,7 @@ mod enums;
 mod format_display;
 mod formatting;
 mod freezing;
+mod inference;
 mod linked_list_enum;
 mod literals;
 mod literals_and_operators;
@@ -66,4 +67,5 @@ fn main() {
     freezing::describe();
     casting::describe();
     literals::describe();
+    inference::describe();
 }
