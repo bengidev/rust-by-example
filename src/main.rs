@@ -29,6 +29,7 @@ mod primitives;
 mod prints;
 mod scope_and_shadowing;
 mod structs;
+mod to_and_from_strings;
 mod tryfrom_and_tryinto;
 mod tuples;
 mod use_use;
@@ -74,4 +75,5 @@ fn main() {
     aliasing::describe();
     from_and_into::describe();
     tryfrom_and_tryinto::describe();
+    to_and_from_strings::describe();
 }
