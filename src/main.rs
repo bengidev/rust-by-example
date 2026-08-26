@@ -29,6 +29,7 @@ mod primitives;
 mod prints;
 mod scope_and_shadowing;
 mod structs;
+mod tryfrom_and_tryinto;
 mod tuples;
 mod use_use;
 mod variable_bindings;
@@ -72,4 +73,5 @@ fn main() {
     inference::describe();
     aliasing::describe();
     from_and_into::describe();
+    tryfrom_and_tryinto::describe();
 }
