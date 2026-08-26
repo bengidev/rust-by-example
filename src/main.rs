@@ -19,6 +19,7 @@ mod enums;
 mod format_display;
 mod formatting;
 mod freezing;
+mod from_and_into;
 mod inference;
 mod linked_list_enum;
 mod literals;
@@ -70,4 +71,5 @@ fn main() {
     literals::describe();
     inference::describe();
     aliasing::describe();
+    from_and_into::describe();
 }
