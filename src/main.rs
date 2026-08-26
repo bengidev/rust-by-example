@@ -16,6 +16,7 @@ mod const_global_static;
 mod declare_first;
 mod enum_c_like;
 mod enums;
+mod expressions;
 mod format_display;
 mod formatting;
 mod freezing;
@@ -76,4 +77,5 @@ fn main() {
     from_and_into::describe();
     tryfrom_and_tryinto::describe();
     to_and_from_strings::describe();
+    expressions::describe();
 }
