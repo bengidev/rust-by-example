@@ -17,6 +17,7 @@ mod declare_first;
 mod enum_c_like;
 mod enums;
 mod expressions;
+mod for_loop_variants;
 mod format_display;
 mod formatting;
 mod freezing;
@@ -88,4 +89,5 @@ fn main() {
     nesting_loop_with_labels::describe();
     returning_from_loops::describe();
     while_to_loop::describe();
+    for_loop_variants::describe();
 }
