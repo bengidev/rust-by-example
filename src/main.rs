@@ -31,6 +31,7 @@ mod mutability;
 mod nesting_loop_with_labels;
 mod primitives;
 mod prints;
+mod returning_from_loops;
 mod scope_and_shadowing;
 mod structs;
 mod to_and_from_strings;
@@ -84,4 +85,5 @@ fn main() {
     if_and_else::describe();
     looping::describe();
     nesting_loop_with_labels::describe();
+    returning_from_loops::describe();
 }
