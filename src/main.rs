@@ -26,6 +26,7 @@ mod inference;
 mod linked_list_enum;
 mod literals;
 mod literals_and_operators;
+mod looping;
 mod mutability;
 mod primitives;
 mod prints;
@@ -80,4 +81,5 @@ fn main() {
     to_and_from_strings::describe();
     expressions::describe();
     if_and_else::describe();
+    looping::describe();
 }
