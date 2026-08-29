@@ -28,6 +28,7 @@ mod literals;
 mod literals_and_operators;
 mod looping;
 mod mutability;
+mod nesting_loop_with_labels;
 mod primitives;
 mod prints;
 mod scope_and_shadowing;
@@ -82,4 +83,5 @@ fn main() {
     expressions::describe();
     if_and_else::describe();
     looping::describe();
+    nesting_loop_with_labels::describe();
 }
