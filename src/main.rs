@@ -39,6 +39,7 @@ mod tryfrom_and_tryinto;
 mod tuples;
 mod use_use;
 mod variable_bindings;
+mod while_to_loop;
 
 use std::fmt::{self, Display};
 
@@ -86,4 +87,5 @@ fn main() {
     looping::describe();
     nesting_loop_with_labels::describe();
     returning_from_loops::describe();
+    while_to_loop::describe();
 }
