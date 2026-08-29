@@ -21,6 +21,7 @@ mod format_display;
 mod formatting;
 mod freezing;
 mod from_and_into;
+mod if_and_else;
 mod inference;
 mod linked_list_enum;
 mod literals;
@@ -78,4 +79,5 @@ fn main() {
     tryfrom_and_tryinto::describe();
     to_and_from_strings::describe();
     expressions::describe();
+    if_and_else::describe();
 }
