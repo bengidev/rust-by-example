@@ -34,6 +34,7 @@ mod match_destructure;
 mod match_loop;
 mod mutability;
 mod nesting_loop_with_labels;
+mod pointers_ref_match;
 mod primitives;
 mod prints;
 mod returning_from_loops;
@@ -98,4 +99,5 @@ fn main() {
     match_destructure::describe();
     array_slices_match::describe();
     enums_destructure_match::describe();
+    pointers_ref_match::describe();
 }
