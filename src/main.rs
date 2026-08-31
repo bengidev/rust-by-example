@@ -40,6 +40,7 @@ mod prints;
 mod returning_from_loops;
 mod scope_and_shadowing;
 mod structs;
+mod structs_match_arms;
 mod to_and_from_strings;
 mod tryfrom_and_tryinto;
 mod tuples;
@@ -100,4 +101,5 @@ fn main() {
     array_slices_match::describe();
     enums_destructure_match::describe();
     pointers_ref_match::describe();
+    structs_match_arms::describe();
 }
