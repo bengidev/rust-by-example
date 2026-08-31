@@ -28,6 +28,7 @@ mod linked_list_enum;
 mod literals;
 mod literals_and_operators;
 mod looping;
+mod match_loop;
 mod mutability;
 mod nesting_loop_with_labels;
 mod primitives;
@@ -90,4 +91,5 @@ fn main() {
     returning_from_loops::describe();
     while_to_loop::describe();
     for_loop_variants::describe();
+    match_loop::describe();
 }
