@@ -17,6 +17,7 @@ mod const_global_static;
 mod declare_first;
 mod enum_c_like;
 mod enums;
+mod enums_destructure_match;
 mod expressions;
 mod for_loop_variants;
 mod format_display;
@@ -96,4 +97,5 @@ fn main() {
     match_loop::describe();
     match_destructure::describe();
     array_slices_match::describe();
+    enums_destructure_match::describe();
 }
