@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod aliasing;
+mod array_slices_match;
 mod arrays_and_slices;
 mod casting;
 mod const_global_static;
@@ -94,4 +95,5 @@ fn main() {
     for_loop_variants::describe();
     match_loop::describe();
     match_destructure::describe();
+    array_slices_match::describe();
 }
