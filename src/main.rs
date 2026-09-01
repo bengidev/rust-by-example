@@ -12,6 +12,7 @@
 mod aliasing;
 mod array_slices_match;
 mod arrays_and_slices;
+mod binding_match_arms;
 mod casting;
 mod const_global_static;
 mod declare_first;
@@ -104,4 +105,5 @@ fn main() {
     pointers_ref_match::describe();
     structs_match_arms::describe();
     guards_match_arms::describe();
+    binding_match_arms::describe();
 }
