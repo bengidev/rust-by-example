@@ -24,6 +24,7 @@ mod format_display;
 mod formatting;
 mod freezing;
 mod from_and_into;
+mod guards_match_arms;
 mod if_and_else;
 mod inference;
 mod linked_list_enum;
@@ -102,4 +103,5 @@ fn main() {
     enums_destructure_match::describe();
     pointers_ref_match::describe();
     structs_match_arms::describe();
+    guards_match_arms::describe();
 }
