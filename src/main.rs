@@ -29,6 +29,7 @@ mod guards_match_arms;
 mod if_and_else;
 mod if_let_flow;
 mod inference;
+mod let_else_flow;
 mod linked_list_enum;
 mod literals;
 mod literals_and_operators;
@@ -108,4 +109,5 @@ fn main() {
     guards_match_arms::describe();
     binding_match_arms::describe();
     if_let_flow::describe();
+    let_else_flow::describe();
 }
