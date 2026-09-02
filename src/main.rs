@@ -50,6 +50,7 @@ mod tryfrom_and_tryinto;
 mod tuples;
 mod use_use;
 mod variable_bindings;
+mod while_let_flow;
 mod while_to_loop;
 
 use std::fmt::{self, Display};
@@ -110,4 +111,5 @@ fn main() {
     binding_match_arms::describe();
     if_let_flow::describe();
     let_else_flow::describe();
+    while_let_flow::describe();
 }
