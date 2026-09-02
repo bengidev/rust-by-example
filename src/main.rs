@@ -27,6 +27,7 @@ mod freezing;
 mod from_and_into;
 mod guards_match_arms;
 mod if_and_else;
+mod if_let_flow;
 mod inference;
 mod linked_list_enum;
 mod literals;
@@ -106,4 +107,5 @@ fn main() {
     structs_match_arms::describe();
     guards_match_arms::describe();
     binding_match_arms::describe();
+    if_let_flow::describe();
 }
