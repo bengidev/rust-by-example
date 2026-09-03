@@ -12,6 +12,7 @@
 mod aliasing;
 mod array_slices_match;
 mod arrays_and_slices;
+mod associated_functions_and_methods;
 mod binding_match_arms;
 mod casting;
 mod const_global_static;
@@ -114,4 +115,5 @@ fn main() {
     let_else_flow::describe();
     while_let_flow::describe();
     functions::describe();
+    associated_functions_and_methods::describe();
 }
