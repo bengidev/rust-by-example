@@ -25,6 +25,7 @@ mod format_display;
 mod formatting;
 mod freezing;
 mod from_and_into;
+mod functions;
 mod guards_match_arms;
 mod if_and_else;
 mod if_let_flow;
@@ -112,4 +113,5 @@ fn main() {
     if_let_flow::describe();
     let_else_flow::describe();
     while_let_flow::describe();
+    functions::describe();
 }
