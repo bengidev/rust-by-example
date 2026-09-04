@@ -14,6 +14,7 @@ mod array_slices_match;
 mod arrays_and_slices;
 mod associated_functions_and_methods;
 mod binding_match_arms;
+mod capturing_closures;
 mod casting;
 mod closures;
 mod const_global_static;
@@ -118,4 +119,5 @@ fn main() {
     functions::describe();
     associated_functions_and_methods::describe();
     closures::describe();
+    capturing_closures::describe();
 }
