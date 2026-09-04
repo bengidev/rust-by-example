@@ -15,6 +15,7 @@ mod arrays_and_slices;
 mod associated_functions_and_methods;
 mod binding_match_arms;
 mod casting;
+mod closures;
 mod const_global_static;
 mod declare_first;
 mod enum_c_like;
@@ -116,4 +117,5 @@ fn main() {
     while_let_flow::describe();
     functions::describe();
     associated_functions_and_methods::describe();
+    closures::describe();
 }
