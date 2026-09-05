@@ -17,6 +17,7 @@ mod binding_match_arms;
 mod capturing_closures;
 mod casting;
 mod closures;
+mod closures_as_input_params;
 mod const_global_static;
 mod declare_first;
 mod enum_c_like;
@@ -120,4 +121,5 @@ fn main() {
     associated_functions_and_methods::describe();
     closures::describe();
     capturing_closures::describe();
+    closures_as_input_params::describe();
 }
