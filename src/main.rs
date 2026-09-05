@@ -53,6 +53,7 @@ mod structs_match_arms;
 mod to_and_from_strings;
 mod tryfrom_and_tryinto;
 mod tuples;
+mod type_anonimity;
 mod use_use;
 mod variable_bindings;
 mod while_let_flow;
@@ -122,4 +123,5 @@ fn main() {
     closures::describe();
     capturing_closures::describe();
     closures_as_input_params::describe();
+    type_anonimity::describe();
 }
