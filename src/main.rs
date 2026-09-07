@@ -34,6 +34,7 @@ mod guards_match_arms;
 mod if_and_else;
 mod if_let_flow;
 mod inference;
+mod input_functions;
 mod let_else_flow;
 mod linked_list_enum;
 mod literals;
@@ -124,4 +125,5 @@ fn main() {
     capturing_closures::describe();
     closures_as_input_params::describe();
     type_anonimity::describe();
+    input_functions::describe();
 }
