@@ -44,6 +44,7 @@ mod match_destructure;
 mod match_loop;
 mod mutability;
 mod nesting_loop_with_labels;
+mod output_functions;
 mod pointers_ref_match;
 mod primitives;
 mod prints;
@@ -126,4 +127,5 @@ fn main() {
     closures_as_input_params::describe();
     type_anonimity::describe();
     input_functions::describe();
+    output_functions::describe();
 }
