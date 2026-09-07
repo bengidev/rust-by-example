@@ -35,6 +35,7 @@ mod if_and_else;
 mod if_let_flow;
 mod inference;
 mod input_functions;
+mod iterator_closures;
 mod let_else_flow;
 mod linked_list_enum;
 mod literals;
@@ -128,4 +129,5 @@ fn main() {
     type_anonimity::describe();
     input_functions::describe();
     output_functions::describe();
+    iterator_closures::describe();
 }
