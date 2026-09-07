@@ -51,6 +51,7 @@ mod primitives;
 mod prints;
 mod returning_from_loops;
 mod scope_and_shadowing;
+mod searching_iterator_cloures;
 mod structs;
 mod structs_match_arms;
 mod to_and_from_strings;
@@ -130,4 +131,5 @@ fn main() {
     input_functions::describe();
     output_functions::describe();
     iterator_closures::describe();
+    searching_iterator_cloures::describe();
 }
