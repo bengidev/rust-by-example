@@ -20,6 +20,7 @@ mod closures;
 mod closures_as_input_params;
 mod const_global_static;
 mod declare_first;
+mod diverging_functions;
 mod enum_c_like;
 mod enums;
 mod enums_destructure_match;
@@ -134,4 +135,5 @@ fn main() {
     iterator_closures::describe();
     searching_iterator_cloures::describe();
     higher_order_functions::describe();
+    diverging_functions::describe();
 }
