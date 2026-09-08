@@ -31,6 +31,7 @@ mod freezing;
 mod from_and_into;
 mod functions;
 mod guards_match_arms;
+mod higher_order_functions;
 mod if_and_else;
 mod if_let_flow;
 mod inference;
@@ -132,4 +133,5 @@ fn main() {
     output_functions::describe();
     iterator_closures::describe();
     searching_iterator_cloures::describe();
+    higher_order_functions::describe();
 }
