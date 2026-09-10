@@ -54,6 +54,7 @@ mod prints;
 mod returning_from_loops;
 mod scope_and_shadowing;
 mod searching_iterator_cloures;
+mod struct_visibility;
 mod structs;
 mod structs_match_arms;
 mod to_and_from_strings;
@@ -138,4 +139,5 @@ fn main() {
     higher_order_functions::describe();
     diverging_functions::describe();
     visibility::describe();
+    struct_visibility::describe();
 }
