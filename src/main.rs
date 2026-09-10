@@ -62,6 +62,7 @@ mod tuples;
 mod type_anonimity;
 mod use_use;
 mod variable_bindings;
+mod visibility;
 mod while_let_flow;
 mod while_to_loop;
 
@@ -136,4 +137,5 @@ fn main() {
     searching_iterator_cloures::describe();
     higher_order_functions::describe();
     diverging_functions::describe();
+    visibility::describe();
 }
