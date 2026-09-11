@@ -61,6 +61,7 @@ mod to_and_from_strings;
 mod tryfrom_and_tryinto;
 mod tuples;
 mod type_anonimity;
+mod use_declaration;
 mod use_use;
 mod variable_bindings;
 mod visibility;
@@ -140,4 +141,5 @@ fn main() {
     diverging_functions::describe();
     visibility::describe();
     struct_visibility::describe();
+    use_declaration::describe();
 }
