@@ -51,6 +51,7 @@ mod output_functions;
 mod pointers_ref_match;
 mod primitives;
 mod prints;
+mod rary;
 mod returning_from_loops;
 mod scope_and_shadowing;
 mod searching_iterator_cloures;
@@ -84,6 +85,9 @@ fn main() {
     //
     println!("Hello, world!");
     println!("I'm a Rustacean!");
+
+    rary::public_function();
+    rary::indirect_access();
 
     prints::describe();
     format_display::describe();
