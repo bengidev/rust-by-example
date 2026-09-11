@@ -57,6 +57,7 @@ mod searching_iterator_cloures;
 mod struct_visibility;
 mod structs;
 mod structs_match_arms;
+mod super_and_self;
 mod to_and_from_strings;
 mod tryfrom_and_tryinto;
 mod tuples;
@@ -142,4 +143,5 @@ fn main() {
     visibility::describe();
     struct_visibility::describe();
     use_declaration::describe();
+    super_and_self::describe();
 }
