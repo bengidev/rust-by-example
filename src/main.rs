@@ -31,6 +31,7 @@ mod formatting;
 mod freezing;
 mod from_and_into;
 mod functions;
+mod generics;
 mod guards_match_arms;
 mod higher_order_functions;
 mod if_and_else;
@@ -148,4 +149,5 @@ fn main() {
     struct_visibility::describe();
     use_declaration::describe();
     super_and_self::describe();
+    generics::describe();
 }
