@@ -37,6 +37,7 @@ mod guards_match_arms;
 mod higher_order_functions;
 mod if_and_else;
 mod if_let_flow;
+mod implementation_generics;
 mod inference;
 mod input_functions;
 mod iterator_closures;
@@ -151,4 +152,5 @@ fn main() {
     use_declaration::describe();
     super_and_self::describe();
     generics::describe();
+    implementation_generics::describe();
 }
