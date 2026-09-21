@@ -63,6 +63,7 @@ mod structs;
 mod structs_match_arms;
 mod super_and_self;
 mod to_and_from_strings;
+mod traits_generics;
 mod tryfrom_and_tryinto;
 mod tuples;
 mod type_anonimity;
@@ -153,4 +154,5 @@ fn main() {
     super_and_self::describe();
     generics::describe();
     implementation_generics::describe();
+    traits_generics::descriibe();
 }
