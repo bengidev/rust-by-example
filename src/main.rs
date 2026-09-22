@@ -22,6 +22,7 @@ mod closures_as_input_params;
 mod const_global_static;
 mod declare_first;
 mod diverging_functions;
+mod empty_bounds_generics;
 mod enum_c_like;
 mod enums;
 mod enums_destructure_match;
@@ -157,4 +158,5 @@ fn main() {
     implementation_generics::describe();
     traits_generics::descriibe();
     bounds_generics::describe();
+    empty_bounds_generics::describe();
 }
