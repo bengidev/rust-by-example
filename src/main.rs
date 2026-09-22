@@ -14,6 +14,7 @@ mod array_slices_match;
 mod arrays_and_slices;
 mod associated_functions_and_methods;
 mod binding_match_arms;
+mod bounds_generics;
 mod capturing_closures;
 mod casting;
 mod closures;
@@ -155,4 +156,5 @@ fn main() {
     generics::describe();
     implementation_generics::describe();
     traits_generics::descriibe();
+    bounds_generics::describe();
 }
