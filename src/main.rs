@@ -74,6 +74,7 @@ mod use_declaration;
 mod use_use;
 mod variable_bindings;
 mod visibility;
+mod where_clauses_generics;
 mod while_let_flow;
 mod while_to_loop;
 
@@ -161,4 +162,5 @@ fn main() {
     bounds_generics::describe();
     empty_bounds_generics::describe();
     multiple_bounds_generics::describe();
+    where_clauses_generics::describe();
 }
