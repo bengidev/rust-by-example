@@ -50,6 +50,7 @@ mod literals_and_operators;
 mod looping;
 mod match_destructure;
 mod match_loop;
+mod multiple_bounds_generics;
 mod mutability;
 mod nesting_loop_with_labels;
 mod output_functions;
@@ -159,4 +160,5 @@ fn main() {
     traits_generics::descriibe();
     bounds_generics::describe();
     empty_bounds_generics::describe();
+    multiple_bounds_generics::describe();
 }
