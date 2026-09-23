@@ -53,6 +53,7 @@ mod match_loop;
 mod multiple_bounds_generics;
 mod mutability;
 mod nesting_loop_with_labels;
+mod new_type_idiom_generics;
 mod output_functions;
 mod pointers_ref_match;
 mod primitives;
@@ -163,4 +164,5 @@ fn main() {
     empty_bounds_generics::describe();
     multiple_bounds_generics::describe();
     where_clauses_generics::describe();
+    new_type_idiom_generics::describe();
 }
