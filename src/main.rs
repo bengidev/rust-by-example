@@ -67,6 +67,7 @@ mod structs;
 mod structs_match_arms;
 mod super_and_self;
 mod to_and_from_strings;
+mod trait_requirements_generics;
 mod traits_generics;
 mod tryfrom_and_tryinto;
 mod tuples;
@@ -165,4 +166,5 @@ fn main() {
     multiple_bounds_generics::describe();
     where_clauses_generics::describe();
     new_type_idiom_generics::describe();
+    trait_requirements_generics::describe();
 }
