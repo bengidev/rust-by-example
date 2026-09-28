@@ -13,6 +13,7 @@ mod aliasing;
 mod array_slices_match;
 mod arrays_and_slices;
 mod associated_functions_and_methods;
+mod associated_types_generics;
 mod binding_match_arms;
 mod bounds_generics;
 mod capturing_closures;
@@ -167,4 +168,5 @@ fn main() {
     where_clauses_generics::describe();
     new_type_idiom_generics::describe();
     trait_requirements_generics::describe();
+    associated_types_generics::describe();
 }
