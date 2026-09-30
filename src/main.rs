@@ -56,6 +56,7 @@ mod mutability;
 mod nesting_loop_with_labels;
 mod new_type_idiom_generics;
 mod output_functions;
+mod phantom_type_parameters_generics;
 mod pointers_ref_match;
 mod primitives;
 mod prints;
@@ -169,4 +170,5 @@ fn main() {
     new_type_idiom_generics::describe();
     trait_requirements_generics::describe();
     associated_types_generics::describe();
+    phantom_type_parameters_generics::describe();
 }
