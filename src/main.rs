@@ -68,6 +68,7 @@ mod struct_visibility;
 mod structs;
 mod structs_match_arms;
 mod super_and_self;
+mod test_case_phantom_type_generics;
 mod to_and_from_strings;
 mod trait_requirements_generics;
 mod traits_generics;
@@ -171,4 +172,5 @@ fn main() {
     trait_requirements_generics::describe();
     associated_types_generics::describe();
     phantom_type_parameters_generics::describe();
+    test_case_phantom_type_generics::describe();
 }
