@@ -60,6 +60,7 @@ mod phantom_type_parameters_generics;
 mod pointers_ref_match;
 mod primitives;
 mod prints;
+mod raai_scoping;
 mod rary;
 mod returning_from_loops;
 mod scope_and_shadowing;
@@ -173,4 +174,5 @@ fn main() {
     associated_types_generics::describe();
     phantom_type_parameters_generics::describe();
     test_case_phantom_type_generics::describe();
+    raai_scoping::describe();
 }
