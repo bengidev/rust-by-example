@@ -56,6 +56,7 @@ mod mutability;
 mod nesting_loop_with_labels;
 mod new_type_idiom_generics;
 mod output_functions;
+mod ownership_and_moves;
 mod phantom_type_parameters_generics;
 mod pointers_ref_match;
 mod primitives;
@@ -175,4 +176,5 @@ fn main() {
     phantom_type_parameters_generics::describe();
     test_case_phantom_type_generics::describe();
     raai_scoping::describe();
+    ownership_and_moves::describe();
 }
