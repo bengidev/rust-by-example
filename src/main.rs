@@ -58,6 +58,7 @@ mod nesting_loop_with_labels;
 mod new_type_idiom_generics;
 mod output_functions;
 mod ownership_and_moves;
+mod partial_moves;
 mod phantom_type_parameters_generics;
 mod pointers_ref_match;
 mod primitives;
@@ -179,4 +180,5 @@ fn main() {
     raai_scoping::describe();
     ownership_and_moves::describe();
     mutable_scoping::describe();
+    partial_moves::describe();
 }
