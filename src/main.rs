@@ -53,6 +53,7 @@ mod match_destructure;
 mod match_loop;
 mod multiple_bounds_generics;
 mod mutability;
+mod mutable_scoping;
 mod nesting_loop_with_labels;
 mod new_type_idiom_generics;
 mod output_functions;
@@ -177,4 +178,5 @@ fn main() {
     test_case_phantom_type_generics::describe();
     raai_scoping::describe();
     ownership_and_moves::describe();
+    mutable_scoping::describe();
 }
