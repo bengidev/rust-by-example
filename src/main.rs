@@ -15,6 +15,7 @@ mod arrays_and_slices;
 mod associated_functions_and_methods;
 mod associated_types_generics;
 mod binding_match_arms;
+mod borrowing;
 mod bounds_generics;
 mod capturing_closures;
 mod casting;
@@ -181,4 +182,5 @@ fn main() {
     ownership_and_moves::describe();
     mutable_scoping::describe();
     partial_moves::describe();
+    borrowing::describe();
 }
