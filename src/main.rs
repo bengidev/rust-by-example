@@ -10,6 +10,7 @@
 // struct DebugPrintable(i32);
 
 mod aliasing;
+mod aliasing_borrowing;
 mod array_slices_match;
 mod arrays_and_slices;
 mod associated_functions_and_methods;
@@ -185,4 +186,5 @@ fn main() {
     partial_moves::describe();
     borrowing::describe();
     borrowing_mutability::describe();
+    aliasing_borrowing::describe();
 }
