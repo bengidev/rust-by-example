@@ -76,6 +76,7 @@ mod structs;
 mod structs_match_arms;
 mod super_and_self;
 mod test_case_phantom_type_generics;
+mod the_ref_pattern;
 mod to_and_from_strings;
 mod trait_requirements_generics;
 mod traits_generics;
@@ -187,4 +188,5 @@ fn main() {
     borrowing::describe();
     borrowing_mutability::describe();
     aliasing_borrowing::describe();
+    the_ref_pattern::describe();
 }
