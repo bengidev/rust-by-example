@@ -48,6 +48,7 @@ mod inference;
 mod input_functions;
 mod iterator_closures;
 mod let_else_flow;
+mod lifetimes;
 mod linked_list_enum;
 mod literals;
 mod literals_and_operators;
@@ -189,4 +190,5 @@ fn main() {
     borrowing_mutability::describe();
     aliasing_borrowing::describe();
     the_ref_pattern::describe();
+    lifetimes::describe();
 }
