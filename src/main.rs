@@ -30,6 +30,7 @@ mod empty_bounds_generics;
 mod enum_c_like;
 mod enums;
 mod enums_destructure_match;
+mod explicit_annotation;
 mod expressions;
 mod for_loop_variants;
 mod format_display;
@@ -191,4 +192,5 @@ fn main() {
     aliasing_borrowing::describe();
     the_ref_pattern::describe();
     lifetimes::describe();
+    explicit_annotation::describe();
 }
