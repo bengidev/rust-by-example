@@ -39,6 +39,7 @@ mod freezing;
 mod from_and_into;
 mod functions;
 mod functions_generics;
+mod functions_lifetimes;
 mod generics;
 mod guards_match_arms;
 mod higher_order_functions;
@@ -193,4 +194,5 @@ fn main() {
     the_ref_pattern::describe();
     lifetimes::describe();
     explicit_annotation::describe();
+    functions_lifetimes::describe();
 }
