@@ -77,6 +77,7 @@ mod scope_and_shadowing;
 mod searching_iterator_cloures;
 mod struct_visibility;
 mod structs;
+mod structs_lifetimes;
 mod structs_match_arms;
 mod super_and_self;
 mod test_case_phantom_type_generics;
@@ -197,4 +198,5 @@ fn main() {
     explicit_annotation::describe();
     functions_lifetimes::describe();
     methods::describe();
+    structs_lifetimes::describe();
 }
