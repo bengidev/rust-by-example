@@ -57,6 +57,7 @@ mod literals_and_operators;
 mod looping;
 mod match_destructure;
 mod match_loop;
+mod methods;
 mod multiple_bounds_generics;
 mod mutability;
 mod mutable_scoping;
@@ -195,4 +196,5 @@ fn main() {
     lifetimes::describe();
     explicit_annotation::describe();
     functions_lifetimes::describe();
+    methods::describe();
 }
