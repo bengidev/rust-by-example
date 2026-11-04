@@ -85,6 +85,7 @@ mod the_ref_pattern;
 mod to_and_from_strings;
 mod trait_requirements_generics;
 mod traits_generics;
+mod traits_lifetimes;
 mod tryfrom_and_tryinto;
 mod tuples;
 mod type_anonimity;
@@ -199,4 +200,5 @@ fn main() {
     functions_lifetimes::describe();
     methods::describe();
     structs_lifetimes::describe();
+    traits_lifetimes::describe();
 }
