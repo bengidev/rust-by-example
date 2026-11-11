@@ -18,6 +18,7 @@ mod associated_types_generics;
 mod binding_match_arms;
 mod borrowing;
 mod borrowing_mutability;
+mod bounds;
 mod bounds_generics;
 mod capturing_closures;
 mod casting;
@@ -201,4 +202,5 @@ fn main() {
     methods::describe();
     structs_lifetimes::describe();
     traits_lifetimes::describe();
+    bounds::describe();
 }
