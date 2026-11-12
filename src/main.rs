@@ -24,6 +24,7 @@ mod capturing_closures;
 mod casting;
 mod closures;
 mod closures_as_input_params;
+mod coercion;
 mod const_global_static;
 mod declare_first;
 mod diverging_functions;
@@ -203,4 +204,5 @@ fn main() {
     structs_lifetimes::describe();
     traits_lifetimes::describe();
     bounds::describe();
+    coercion::describe();
 }
