@@ -28,6 +28,7 @@ mod coercion;
 mod const_global_static;
 mod declare_first;
 mod diverging_functions;
+mod elision;
 mod empty_bounds_generics;
 mod enum_c_like;
 mod enums;
@@ -77,6 +78,7 @@ mod rary;
 mod returning_from_loops;
 mod scope_and_shadowing;
 mod searching_iterator_cloures;
+mod static_lifetimes;
 mod struct_visibility;
 mod structs;
 mod structs_lifetimes;
@@ -205,4 +207,6 @@ fn main() {
     traits_lifetimes::describe();
     bounds::describe();
     coercion::describe();
+    static_lifetimes::describe();
+    elision::describe();
 }
