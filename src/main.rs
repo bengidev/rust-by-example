@@ -88,6 +88,7 @@ mod test_case_phantom_type_generics;
 mod the_ref_pattern;
 mod to_and_from_strings;
 mod trait_requirements_generics;
+mod traits;
 mod traits_generics;
 mod traits_lifetimes;
 mod tryfrom_and_tryinto;
@@ -209,4 +210,5 @@ fn main() {
     coercion::describe();
     static_lifetimes::describe();
     elision::describe();
+    traits::describe();
 }
