@@ -27,6 +27,7 @@ mod closures_as_input_params;
 mod coercion;
 mod const_global_static;
 mod declare_first;
+mod derive;
 mod diverging_functions;
 mod elision;
 mod empty_bounds_generics;
@@ -211,4 +212,5 @@ fn main() {
     static_lifetimes::describe();
     elision::describe();
     traits::describe();
+    derive::describe();
 }
